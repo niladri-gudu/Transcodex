@@ -1,6 +1,6 @@
-# 🎬 Video Transcoding & Streaming Platform
+# 🎬 Transcodex
 
-A full-stack video processing platform with distributed transcoding, adaptive streaming, and AI-powered video analysis.
+**Transcodex** is a full-stack video processing platform with distributed transcoding, adaptive streaming, and AI-powered video analysis.
 
 ## ✨ Features
 
@@ -151,8 +151,8 @@ Video Ready to Stream
 ### 1. Clone Repository
 
 ```bash
-git clone <repo-url>
-cd <repo-directory>
+git clone https://github.com/yourusername/transcodex.git
+cd transcodex
 ```
 
 ### 2. Install Dependencies
@@ -179,7 +179,7 @@ GEMINI_API_KEY=your_gemini_api_key
 
 **Frontend `.env`**
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:3000
+NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
 **Worker `.env`**
@@ -189,7 +189,6 @@ AWS_REGION=us-east-1
 AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
 AWS_BUCKET_NAME=your-bucket-name
-PORT=8000
 REDIS_HOST=localhost
 REDIS_PORT=6379
 REDIS_URL=redis://127.0.0.1:6379
