@@ -1,5 +1,3 @@
-This is the version I'd ship to GitHub. It's detailed enough to show engineering depth, but not so long that people stop reading.
-
 # 🎬 Transcodex
 
 > A full-stack video processing platform inspired by modern streaming systems like YouTube.
